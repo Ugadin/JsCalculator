@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(73, 108, 114);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 2px 40px rgb(49, 72, 76);
+}
+
+.calculadora{
+  width: 450px;
+}
+
+ h1{
+  color: #fff;
+  background-color: rgb(105, 153, 163);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(49, 72, 76);
+}
+.display{
+  font-size: 2rem;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+}
+.btn{
+  width: 100%;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 1em;
+  border: none;
+  background: rgb(165, 172, 184);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: rgb(136, 143, 153);
+}
+.btn-eq{
+  background: rgb(105, 153, 163);
+  color: #fff;
+}
+.btn-eq:hover{
+  background: rgb(91, 133, 141);
+}
